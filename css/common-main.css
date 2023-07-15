@@ -1,0 +1,117 @@
+@charset "utf-8";
+html {
+  font-size: 100%;
+}
+body {
+  color: #000000;
+  background: #ffffff;
+  word-break: break-all;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+li {
+  list-style: none;
+}
+/* header */
+.header-wrapper {
+  max-width: 1100px;
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1%;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 2;
+}
+.header-wrapper__logo {
+  width: 25%;
+}
+.header-wrapper__logo img {
+  width: 100%;
+}
+.header-wrapper__nav {
+  width: 55%;
+}
+.header-wrapper__nav__list1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-wrapper__nav__list1__item__web, 
+.header-wrapper__nav__list1__item__line {
+  margin-right: 5%;
+}
+.header-wrapper__nav__list1__item__web {
+  background: #3b82c4;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2% 4%;
+}
+.header-wrapper__nav__list1__item__web a {
+  color: #ffffff;
+}
+.header-wrapper__nav__list1__item__phone {
+  display: flex;
+  align-items: center;
+}
+.header-wrapper__nav__list2 {
+  display: flex;
+  padding: 2% 0% 2% 2%;
+  justify-content: flex-end;
+}
+.header-wrapper__nav__list2__item {
+  margin-right: 2%;
+}
+.header-wrapper__nav__list2__item:hover {
+  opacity: 0.7;
+}
+.header-wrapper__nav__list2__item:last-child {
+  margin-right: 0%;
+} 
+/* top */
+.top {
+  background-image: url("../img/top-fv.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.top-wrapper {
+  height: 100vh;
+}
+
+.top-wrapper__sche table {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  background-color: #ffffff;
+}
+
+.top-wrapper__sche table tr:nth-of-type(1) {
+  background-color: #97cdf3;
+}
+.top-wrapper__sche table tr th {
+  padding: 10px;
+  font-weight: 500;
+}
+.top-wrapper__sche table tr .holiday {
+  font-size: 0.7rem;
+}
+.top-wrapper__sche table tr:nth-of-type(2),
+.top-wrapper__sche table tr:nth-of-type(3) {
+  border-bottom: dashed 1px #000000;
+}
+.top-wrapper__sche table tr td {
+  padding: 10px;
+}
+.top-wrapper__sche table tr td i {
+  color: #3b82c4;
+}
+
