@@ -1,1 +1,34 @@
 @charset "utf-8";
+.top {
+  background-image: url("..//img/news-fv.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.announce {
+  background-color: #dbedf0;
+  padding-bottom: 3.5%;
+}
+.announce-wrapper {
+  text-align: center;
+}
+.announce-wrapper .ttl {
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+
+.announce-wrapper__list__item {
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 1.5%;
+  border-radius: 10px;
+}
+.announce-wrapper__list__item span {
+  padding: 3% 2%;
+  width: 15%;
+}
+.announce-wrapper__list__item p {
+  padding: 3% 0;
+  width: 85%;
+}

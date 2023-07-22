@@ -1,0 +1,163 @@
+@charset "utf-8";
+.top {
+  background-image: url("..//img/exam\ content\ fv.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.index-wrapper__list {
+  display: flex;
+  justify-content: space-between;
+}
+.index-wrapper__list__item {
+  background-color: #97cdf3;
+  width: 15%;
+  padding: 2% 3%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-wrapper__list__item:hover {
+  opacity: 0.8;
+}
+.index-wrapper__list__item:nth-of-type(1),
+.index-wrapper__list__item:nth-of-type(2) {
+  background-color: #d9d9d9;
+}
+.index-wrapper__list__item a {
+  font-size: 0.9rem;
+}
+
+.sb-tl {
+  padding: 2.5% 0;
+}
+.glaucoma-wrapper,
+.cataract-wrapper{
+  background-color: #97cdf3;
+}
+.glaucoma-wrapper__ttl, 
+.cataract-wrapper__ttl {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.sb-title {
+  padding-top: 3%;
+  padding-bottom: 0.25rem;
+  font-size: 1.25rem;
+  display: inline-block;
+  position: relative;
+  border-bottom: solid 3px red;
+}
+.sb-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-bottom: solid 3px blue;
+  width: 50%;
+  padding-bottom: 0.25rem;
+}
+.glaucoma-wrapper__content,
+.cataract-wrapper__content {
+  display: flex;
+  justify-content: space-between;
+}
+.glaucoma-wrapper__content__left,
+.cataract-wrapper__content__left {
+  width: 35%;
+}
+.glaucoma-wrapper__content__left img,
+.cataract-wrapper__content__left img {
+  width: 100%;
+  object-fit: cover;
+}
+.glaucoma-wrapper__content__right,
+.cataract-wrapper__content__right {
+  width: 50%;
+}
+.glaucoma-wrapper__content__right p,
+.cataract-wrapper__content__right p {
+  line-height: 1.8;
+}
+.glaucoma-wrapper__content__right__box,
+.cataract-wrapper__content__right__box {
+  background-color: #ffffff;
+  border: 3px solid #3b82c4;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+.glaucoma-wrapper__content__right__box h3,
+.cataract-wrapper__content__right__box h3 {
+  padding: 2.5% 6.5%;
+}
+.glaucoma-wrapper__content__right__box__list,
+.cataract-wrapper__content__right__box__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.glaucoma-wrapper__content__right__box__list__item,
+.cataract-wrapper__content__right__box__list__item {
+  display: flex;
+  padding-bottom: 2.5%;
+}
+.glaucoma-wrapper__content__right__box__list__item i,
+.cataract-wrapper__content__right__box__list__item i {
+  background-color: #97cdf3;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.3rem;
+  margin-right: 0.5rem;
+}
+.glaucoma-wrapper__method,
+.cataract-wrapper__method {
+  text-align: center;
+  margin-top: 3%;
+  padding-bottom: 2.5%;
+  margin-bottom: 5%;
+}
+
+.glaucoma-wrapper__method h3,
+.cataract-wrapper__method h3 {
+  background-color: #3b82c4;
+  padding: 2%;
+  border-radius: 10px 10px 0 0;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+.glaucoma-wrapper__method__block,
+.cataract-wrapper__method__block {
+  background-color: #ffffff;
+  padding: 3%;
+}
+.glaucoma-wrapper__method__block:nth-of-type(1),
+.glaucoma-wrapper__method__block:nth-of-type(2),
+.cataract-wrapper__method__block:nth-of-type(1) {
+ border-bottom: 1px dashed #000000;
+}
+.glaucoma-wrapper__method__block h4,
+.cataract-wrapper__method__block h4 {
+  color: #3b82c4;
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1.5%;
+}
+.glaucoma-wrapper__method__block p,
+.cataract-wrapper__method__block p {
+  text-align: left;
+  line-height: 1.5;
+}
+.glaucoma-wrapper__method__block h5,
+.cataract-wrapper__method__block h5 {
+  text-align: left;
+  margin-bottom: 1%;
+}
+.glaucoma-wrapper__method__block__box1 p
+.cataract-wrapper__method__block__box1 p {
+  margin-bottom: 3%;
+}

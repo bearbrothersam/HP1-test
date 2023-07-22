@@ -1,1 +1,33 @@
 @charset "utf-8";
+.top-wrapper__ttl {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  padding: 2% 7%;
+  border-radius: 0px 15px 0px 0px;
+}
+.top-wrapper__ttl small {
+  font-size: 0.5rem;
+}
+.top-wrapper__ttl p {
+  font-size: 1.4rem;
+  margin-top: 5%;
+  letter-spacing: 2%;
+}
+.breadcrumb-wrap {
+  padding: 3% 0;
+}
+.breadcrumb-wrap__nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.breadcrumb-wrap__nav__list__item:nth-of-type(1)::after {
+  content: ">";
+  margin: 0 10px;
+}
+.breadcrumb-wrap__nav__list__item:nth-last-of-type(1) a {
+  color: #3b82c4;
+  font-size: 1.05rem;
+}

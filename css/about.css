@@ -1,1 +1,104 @@
 @charset "utf-8";
+.top {
+  background-image: url("../img/about-fv.png");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+.greeting {
+  background-color: #97cdf3;
+}
+  .ttl {
+  text-align: center;
+  padding: 5% 0;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .ttl::before,
+ .ttl::after {
+  content: "";
+  background-color: #000;
+  height: 1px;
+  width: 60px;
+}
+  .ttl::before {
+  margin-right: 15px;
+  }
+  .ttl::after {
+  margin-left: 15px;
+}
+.greeting-wrapper__box__left .sb-tl small {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: block;
+}
+ .sb-tl__headline {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin-top: 0.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sb-tl .sb-tl__headline::before,
+.sb-tl .sb-tl__headline::after {
+  content: "";
+  background-color: #ffffff;
+  height: 1px;
+  width: 60px;
+}
+.sb-tl .sb-tl__headline::before {
+  margin-right: 15px;
+}
+.sb-tl .sb-tl__headline::after {
+  margin-left: 15px;
+}
+.facility {
+  margin-top: 5%;
+  background-color: #dbedf0;
+}
+.facility-wrapper__list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.facility-wrapper__list__item {
+  width: 27.5%;
+  text-align: center;
+}
+.facility-wrapper__list__item p {
+  background-color: #97cdf3;
+  padding: 7.5% 3%;
+  border-radius: 10px 10px 0 0;
+}
+.facility-wrapper__list__item img {
+  width: 100%;
+}
+
+.device {
+  margin-top: 5%;
+  background-color: #dbedf0;
+}
+.device-wrapper__list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.device-wrapper__list__item {
+  width: 27.5%;
+  text-align: center;
+}
+.device-wrapper__list__item p {
+  background-color: #97cdf3;
+  padding: 7.5% 3%;
+  border-radius: 10px 10px 0 0;
+}
+.device-wrapper__list__item img {
+  width: 100%;
+}
+
+
