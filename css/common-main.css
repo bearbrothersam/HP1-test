@@ -25,11 +25,10 @@ li {
 .sb-tl small {
   color: #3b82c4;
   font-size: 0.8rem;
-  font-weight: 500;
   display: block;
 }
 .sb-tl__headline {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   margin-top: 0.3%;
   display: flex;
   align-items: center;
@@ -98,11 +97,12 @@ li {
 }
 .header-wrapper__nav__list2 {
   display: flex;
-  padding: 2% 0% 2% 2%;
+  padding: 2% 0% 1% 2%;
+  margin-top: 1%;
   justify-content: flex-end;
 }
 .header-wrapper__nav__list2__item {
-  margin-right: 2%;
+  margin-right: 5%;
 }
 .header-wrapper__nav__list2__item:hover {
   opacity: 0.7;
@@ -185,6 +185,7 @@ li {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 .news-wrapper__left__btn a:hover {
   opacity: 0.8;
@@ -202,16 +203,21 @@ li {
   margin-right: 25%;
 }
 /* guidance */
+.guidance-wrapper {
+  background-color: #97cdf3;
+}
 .guidance-wrapper__list {
   display: flex;
-  justify-content: space-evenly;
-  background-color: #97cdf3;
+  justify-content: space-between;
   margin-top: 2%;
 }
 .guidance-wrapper__list__item {
   padding: 3%;
 }
-.guidance-wrapper__list__item:hover {
+.guidance-wrapper__list__item a {
+  transition: all 0.3s;
+}
+.guidance-wrapper__list__item a:hover {
   opacity: 0.8;
 }
 .guidance-wrapper__list__item  i {
@@ -242,11 +248,10 @@ li {
 .greeting-wrapper__box__left .sb-tl small {
   color: #3b82c4;
   font-size: 0.8rem;
-  font-weight: 500;
-  margin-right: 25%;
+  margin-right: 12.5%;
 }
 .greeting-wrapper__box__left .sb-tl__headline {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   margin-top: 0.3%;
   display: flex;
   align-items: center;
@@ -286,6 +291,7 @@ li {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 .greeting-wrapper .btn__2 a {
   display: block;
@@ -296,9 +302,10 @@ li {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s;
 }
-.btn__1:hover,
-.btn__2:hover  {
+.btn__1 a:hover,
+.btn__2 a:hover  {
   opacity: 0.7;
 }
 /* clinic-guidance */
@@ -419,7 +426,7 @@ li {
   width: 100%;
   padding: 5% 3%;
   border-radius: 10px;
-  margin-top: 1.5%;
+  margin-top: 5%;
 }
 .footer-wrapper__left__res__list {
   display: flex;
@@ -454,6 +461,7 @@ li {
 .footer-wrapper__right__list {
   display: flex;
   justify-content: space-between;
+  padding-left: 5%;
 }
 .footer-wrapper__right__list__item {
   margin-bottom: 1.8rem;
@@ -471,7 +479,8 @@ li {
 }
 .footer-wrapper__right__sche {
   background-color: #ffffff;
-  padding: 2% 1% 1% 1%;
+  /* padding: 2% 1% 1% 1%; */
+  padding: 5%;
   border-radius: 15px;
   display: inline-block;
 }
@@ -479,12 +488,14 @@ li {
   background-color: #97cdf3;
 }
 .footer-wrapper__right__sche table tr th {
-  padding: 10px;
   font-weight: 500;
 }
-.footer-wrapper__right__sche table tr .holiday {
+
+.footer-wrapper__right__sche p {
   font-size: 0.7rem;
+  padding-top: 3%;
 }
+
 .footer-wrapper__right__sche table tr:nth-of-type(2),
 .footer-wrapper__right__sche table tr:nth-of-type(3) {
   border-bottom: dashed 1px #000000;
