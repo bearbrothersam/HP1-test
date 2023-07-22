@@ -6,6 +6,9 @@
   position: relative;
   z-index: 0;
 }
+.top-wrapper {
+  height: 65vh;
+}
 .greeting {
   background-color: #97cdf3;
 }
@@ -29,6 +32,9 @@
   }
   .ttl::after {
   margin-left: 15px;
+}
+.greeting {
+  padding-bottom: 5%;
 }
 .greeting-wrapper__box__left .sb-tl small {
   color: #ffffff;

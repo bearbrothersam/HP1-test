@@ -6,6 +6,9 @@
   position: relative;
   z-index: 0;
 }
+.top-wrapper {
+  height: 80vh;
+}
 .index-wrapper__list {
   display: flex;
   justify-content: space-between;
@@ -52,7 +55,7 @@
 .sb-title {
   padding-top: 3%;
   padding-bottom: 0.25rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   display: inline-block;
   position: relative;
   border-bottom: solid 3px red;

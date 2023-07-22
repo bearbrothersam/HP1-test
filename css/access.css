@@ -6,6 +6,9 @@
   position: relative;
   z-index: 0;
 }
+.top-wrapper {
+  height: 80vh;
+}
 .access .sb-tl {
   margin-bottom: 3%;
 }

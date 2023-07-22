@@ -6,6 +6,9 @@
   position: relative;
   z-index: 0;
 }
+.top-wrapper {
+  height: 80vh;
+}
 .index-wrapper__list {
   display: flex;
   justify-content: space-evenly;

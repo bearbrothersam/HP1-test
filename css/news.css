@@ -6,6 +6,9 @@
   position: relative;
   z-index: 0;
 }
+.top-wrapper {
+  height: 75vh;
+}
 .announce {
   background-color: #dbedf0;
   padding-bottom: 3.5%;
@@ -14,7 +17,7 @@
   text-align: center;
 }
 .announce-wrapper .ttl {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 5% 0;
 }
 

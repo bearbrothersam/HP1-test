@@ -28,7 +28,7 @@ li {
   display: block;
 }
 .sb-tl__headline {
-  font-size: 1.8rem;
+  font-size: 2.35rem;
   margin-top: 0.3%;
   display: flex;
   align-items: center;
@@ -162,7 +162,7 @@ li {
   width: 30%;
 }
 .news-wrapper__left__stl {
-  font-size: 1.8rem;
+  font-size: 2.35rem;
   border-left: 2px solid #3b82c4;
   padding: 0rem 0.5rem;
 }
@@ -203,13 +203,11 @@ li {
   margin-right: 25%;
 }
 /* guidance */
-.guidance-wrapper {
-  background-color: #97cdf3;
-}
 .guidance-wrapper__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 2%;
+  background-color: #97cdf3;
 }
 .guidance-wrapper__list__item {
   padding: 3%;
@@ -318,7 +316,7 @@ li {
   margin-top: 1.5%;
 }
 .clinic-guidance-wrapper__left {
-  width: 50%;
+  width: 45%;
 }
 .clinic-guidance-wrapper__left h3 {
   text-align: center;
@@ -326,20 +324,22 @@ li {
 }
 .clinic-guidance-wrapper__left__sche {
   background-color: #ffffff;
-  padding: 2% 1% 1% 1%;
+  /* padding: 2% 1% 1% 1%; */
+  padding: 2% 3% ;
   border-radius: 15px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .clinic-guidance-wrapper__left__sche table tr:nth-of-type(1) {
   background-color: #97cdf3;
 }
 .clinic-guidance-wrapper__left__sche table tr th {
-  padding: 10px;
   font-weight: 500;
 }
-.clinic-guidance-wrapper__left__sche table tr .holiday {
+.clinic-guidance-wrapper__left__sche  p {
   font-size: 0.7rem;
+  padding-top: 3%;
 }
+
 .clinic-guidance-wrapper__left__sche table tr:nth-of-type(2),
 .clinic-guidance-wrapper__left__sche table tr:nth-of-type(3) {
   border-bottom: dashed 1px #000000;
@@ -480,7 +480,7 @@ li {
 .footer-wrapper__right__sche {
   background-color: #ffffff;
   /* padding: 2% 1% 1% 1%; */
-  padding: 5%;
+  padding: 5% 3%;
   border-radius: 15px;
   display: inline-block;
 }
